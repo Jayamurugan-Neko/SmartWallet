@@ -24,7 +24,7 @@ SmartWallet is an event-driven, microservices-based personal finance platform. I
 ## System Architecture
 
 ```mermaid
-graph TD
+flowchart TD
     Client[React Client UI] -->|REST / HTTP| API[API Gateway]
     
     API --> Auth[User Auth Service]
