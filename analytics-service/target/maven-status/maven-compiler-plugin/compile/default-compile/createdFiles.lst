@@ -1,0 +1,8 @@
+com\smartwallet\analytics\service\KafkaConsumerService$1.class
+com\smartwallet\analytics\service\AnalyticsService.class
+com\smartwallet\analytics\entity\MonthlyAggregation$MonthlyAggregationBuilder.class
+com\smartwallet\analytics\entity\MonthlyAggregation.class
+com\smartwallet\analytics\service\KafkaConsumerService.class
+com\smartwallet\analytics\controller\AnalyticsController.class
+com\smartwallet\analytics\AnalyticsApplication.class
+com\smartwallet\analytics\repository\MonthlyAggregationRepository.class

@@ -1,0 +1,11 @@
+com\smartwallet\receipt\service\MinioService.class
+com\smartwallet\receipt\entity\Receipt.class
+com\smartwallet\receipt\ReceiptApplication.class
+com\smartwallet\receipt\config\MinioConfig.class
+com\smartwallet\receipt\service\MockOcrProvider.class
+com\smartwallet\receipt\service\OcrProvider.class
+com\smartwallet\receipt\service\OcrProvider$OcrResult.class
+com\smartwallet\receipt\entity\Receipt$ReceiptBuilder.class
+com\smartwallet\receipt\repository\ReceiptRepository.class
+com\smartwallet\receipt\service\ReceiptService.class
+com\smartwallet\receipt\controller\ReceiptController.class

@@ -1,0 +1,387 @@
+﻿[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] smartwallet-parent                                                 [pom]
+[INFO] common-lib                                                         [jar]
+[INFO] api-gateway-service                                                [jar]
+[INFO] user-auth-service                                                  [jar]
+[INFO] wallet-ledger-service                                              [jar]
+[INFO] analytics-service                                                  [jar]
+[INFO] receipt-service                                                    [jar]
+[INFO] budget-service                                                     [jar]
+[INFO] bill-service                                                       [jar]
+[INFO] split-service                                                      [jar]
+[INFO] notification-service                                               [jar]
+[INFO] 
+[INFO] -----------------< com.smartwallet:smartwallet-parent >-----------------
+[INFO] Building smartwallet-parent 1.0.0-SNAPSHOT                        [1/11]
+[INFO]   from pom.xml
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.3.2:clean (default-clean) @ smartwallet-parent ---
+[INFO] 
+[INFO] --- spring-boot:3.2.4:repackage (repackage) @ smartwallet-parent ---
+[INFO] 
+[INFO] --- install:3.1.1:install (default-install) @ smartwallet-parent ---
+[INFO] Installing C:\Users\jayam\Learning\Mock-hack\pom.xml to C:\Users\jayam\.m2\repository\com\smartwallet\smartwallet-parent\1.0.0-SNAPSHOT\smartwallet-parent-1.0.0-SNAPSHOT.pom
+[INFO] 
+[INFO] ---------------------< com.smartwallet:common-lib >---------------------
+[INFO] Building common-lib 1.0.0-SNAPSHOT                                [2/11]
+[INFO]   from common-lib\pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.3.2:clean (default-clean) @ common-lib ---
+[INFO] Deleting C:\Users\jayam\Learning\Mock-hack\common-lib\target
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ common-lib ---
+[INFO] Copying 0 resource from src\main\resources to target\classes
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.11.0:compile (default-compile) @ common-lib ---
+[INFO] Changes detected - recompiling the module! :source
+[INFO] Compiling 8 source files with javac [debug release 17] to target\classes
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ common-lib ---
+[INFO] skip non existing resourceDirectory C:\Users\jayam\Learning\Mock-hack\common-lib\src\test\resources
+[INFO] 
+[INFO] --- compiler:3.11.0:testCompile (default-testCompile) @ common-lib ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- surefire:3.1.2:test (default-test) @ common-lib ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jar:3.3.0:jar (default-jar) @ common-lib ---
+[INFO] Building jar: C:\Users\jayam\Learning\Mock-hack\common-lib\target\common-lib-1.0.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- spring-boot:3.2.4:repackage (repackage) @ common-lib ---
+[INFO] 
+[INFO] --- install:3.1.1:install (default-install) @ common-lib ---
+[INFO] Installing C:\Users\jayam\Learning\Mock-hack\common-lib\pom.xml to C:\Users\jayam\.m2\repository\com\smartwallet\common-lib\1.0.0-SNAPSHOT\common-lib-1.0.0-SNAPSHOT.pom
+[INFO] Installing C:\Users\jayam\Learning\Mock-hack\common-lib\target\common-lib-1.0.0-SNAPSHOT.jar to C:\Users\jayam\.m2\repository\com\smartwallet\common-lib\1.0.0-SNAPSHOT\common-lib-1.0.0-SNAPSHOT.jar
+[INFO] 
+[INFO] ----------------< com.smartwallet:api-gateway-service >-----------------
+[INFO] Building api-gateway-service 1.0.0-SNAPSHOT                       [3/11]
+[INFO]   from api-gateway-service\pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.3.2:clean (default-clean) @ api-gateway-service ---
+[INFO] Deleting C:\Users\jayam\Learning\Mock-hack\api-gateway-service\target
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ api-gateway-service ---
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] Copying 0 resource from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.11.0:compile (default-compile) @ api-gateway-service ---
+[INFO] Changes detected - recompiling the module! :dependency
+[INFO] Compiling 3 source files with javac [debug release 17] to target\classes
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ api-gateway-service ---
+[INFO] skip non existing resourceDirectory C:\Users\jayam\Learning\Mock-hack\api-gateway-service\src\test\resources
+[INFO] 
+[INFO] --- compiler:3.11.0:testCompile (default-testCompile) @ api-gateway-service ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- surefire:3.1.2:test (default-test) @ api-gateway-service ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jar:3.3.0:jar (default-jar) @ api-gateway-service ---
+[INFO] Building jar: C:\Users\jayam\Learning\Mock-hack\api-gateway-service\target\api-gateway-service-1.0.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- spring-boot:3.2.4:repackage (repackage) @ api-gateway-service ---
+[INFO] 
+[INFO] --- install:3.1.1:install (default-install) @ api-gateway-service ---
+[INFO] Installing C:\Users\jayam\Learning\Mock-hack\api-gateway-service\pom.xml to C:\Users\jayam\.m2\repository\com\smartwallet\api-gateway-service\1.0.0-SNAPSHOT\api-gateway-service-1.0.0-SNAPSHOT.pom
+[INFO] Installing C:\Users\jayam\Learning\Mock-hack\api-gateway-service\target\api-gateway-service-1.0.0-SNAPSHOT.jar to C:\Users\jayam\.m2\repository\com\smartwallet\api-gateway-service\1.0.0-SNAPSHOT\api-gateway-service-1.0.0-SNAPSHOT.jar
+[INFO] 
+[INFO] -----------------< com.smartwallet:user-auth-service >------------------
+[INFO] Building user-auth-service 1.0.0-SNAPSHOT                         [4/11]
+[INFO]   from user-auth-service\pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.3.2:clean (default-clean) @ user-auth-service ---
+[INFO] Deleting C:\Users\jayam\Learning\Mock-hack\user-auth-service\target
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ user-auth-service ---
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] Copying 0 resource from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.11.0:compile (default-compile) @ user-auth-service ---
+[INFO] Changes detected - recompiling the module! :dependency
+[INFO] Compiling 10 source files with javac [debug release 17] to target\classes
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ user-auth-service ---
+[INFO] skip non existing resourceDirectory C:\Users\jayam\Learning\Mock-hack\user-auth-service\src\test\resources
+[INFO] 
+[INFO] --- compiler:3.11.0:testCompile (default-testCompile) @ user-auth-service ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- surefire:3.1.2:test (default-test) @ user-auth-service ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jar:3.3.0:jar (default-jar) @ user-auth-service ---
+[INFO] Building jar: C:\Users\jayam\Learning\Mock-hack\user-auth-service\target\user-auth-service-1.0.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- spring-boot:3.2.4:repackage (repackage) @ user-auth-service ---
+[INFO] 
+[INFO] --- install:3.1.1:install (default-install) @ user-auth-service ---
+[INFO] Installing C:\Users\jayam\Learning\Mock-hack\user-auth-service\pom.xml to C:\Users\jayam\.m2\repository\com\smartwallet\user-auth-service\1.0.0-SNAPSHOT\user-auth-service-1.0.0-SNAPSHOT.pom
+[INFO] Installing C:\Users\jayam\Learning\Mock-hack\user-auth-service\target\user-auth-service-1.0.0-SNAPSHOT.jar to C:\Users\jayam\.m2\repository\com\smartwallet\user-auth-service\1.0.0-SNAPSHOT\user-auth-service-1.0.0-SNAPSHOT.jar
+[INFO] 
+[INFO] ---------------< com.smartwallet:wallet-ledger-service >----------------
+[INFO] Building wallet-ledger-service 1.0.0-SNAPSHOT                     [5/11]
+[INFO]   from wallet-ledger-service\pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.3.2:clean (default-clean) @ wallet-ledger-service ---
+[INFO] Deleting C:\Users\jayam\Learning\Mock-hack\wallet-ledger-service\target
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ wallet-ledger-service ---
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] Copying 0 resource from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.11.0:compile (default-compile) @ wallet-ledger-service ---
+[INFO] Changes detected - recompiling the module! :dependency
+[INFO] Compiling 8 source files with javac [debug release 17] to target\classes
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ wallet-ledger-service ---
+[INFO] skip non existing resourceDirectory C:\Users\jayam\Learning\Mock-hack\wallet-ledger-service\src\test\resources
+[INFO] 
+[INFO] --- compiler:3.11.0:testCompile (default-testCompile) @ wallet-ledger-service ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- surefire:3.1.2:test (default-test) @ wallet-ledger-service ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jar:3.3.0:jar (default-jar) @ wallet-ledger-service ---
+[INFO] Building jar: C:\Users\jayam\Learning\Mock-hack\wallet-ledger-service\target\wallet-ledger-service-1.0.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- spring-boot:3.2.4:repackage (repackage) @ wallet-ledger-service ---
+[INFO] 
+[INFO] --- install:3.1.1:install (default-install) @ wallet-ledger-service ---
+[INFO] Installing C:\Users\jayam\Learning\Mock-hack\wallet-ledger-service\pom.xml to C:\Users\jayam\.m2\repository\com\smartwallet\wallet-ledger-service\1.0.0-SNAPSHOT\wallet-ledger-service-1.0.0-SNAPSHOT.pom
+[INFO] Installing C:\Users\jayam\Learning\Mock-hack\wallet-ledger-service\target\wallet-ledger-service-1.0.0-SNAPSHOT.jar to C:\Users\jayam\.m2\repository\com\smartwallet\wallet-ledger-service\1.0.0-SNAPSHOT\wallet-ledger-service-1.0.0-SNAPSHOT.jar
+[INFO] 
+[INFO] -----------------< com.smartwallet:analytics-service >------------------
+[INFO] Building analytics-service 1.0.0-SNAPSHOT                         [6/11]
+[INFO]   from analytics-service\pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.3.2:clean (default-clean) @ analytics-service ---
+[INFO] Deleting C:\Users\jayam\Learning\Mock-hack\analytics-service\target
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ analytics-service ---
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] Copying 0 resource from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.11.0:compile (default-compile) @ analytics-service ---
+[INFO] Changes detected - recompiling the module! :dependency
+[INFO] Compiling 6 source files with javac [debug release 17] to target\classes
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ analytics-service ---
+[INFO] skip non existing resourceDirectory C:\Users\jayam\Learning\Mock-hack\analytics-service\src\test\resources
+[INFO] 
+[INFO] --- compiler:3.11.0:testCompile (default-testCompile) @ analytics-service ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- surefire:3.1.2:test (default-test) @ analytics-service ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jar:3.3.0:jar (default-jar) @ analytics-service ---
+[INFO] Building jar: C:\Users\jayam\Learning\Mock-hack\analytics-service\target\analytics-service-1.0.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- spring-boot:3.2.4:repackage (repackage) @ analytics-service ---
+[INFO] 
+[INFO] --- install:3.1.1:install (default-install) @ analytics-service ---
+[INFO] Installing C:\Users\jayam\Learning\Mock-hack\analytics-service\pom.xml to C:\Users\jayam\.m2\repository\com\smartwallet\analytics-service\1.0.0-SNAPSHOT\analytics-service-1.0.0-SNAPSHOT.pom
+[INFO] Installing C:\Users\jayam\Learning\Mock-hack\analytics-service\target\analytics-service-1.0.0-SNAPSHOT.jar to C:\Users\jayam\.m2\repository\com\smartwallet\analytics-service\1.0.0-SNAPSHOT\analytics-service-1.0.0-SNAPSHOT.jar
+[INFO] 
+[INFO] ------------------< com.smartwallet:receipt-service >-------------------
+[INFO] Building receipt-service 1.0.0-SNAPSHOT                           [7/11]
+[INFO]   from receipt-service\pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.3.2:clean (default-clean) @ receipt-service ---
+[INFO] Deleting C:\Users\jayam\Learning\Mock-hack\receipt-service\target
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ receipt-service ---
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] Copying 0 resource from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.11.0:compile (default-compile) @ receipt-service ---
+[INFO] Changes detected - recompiling the module! :dependency
+[INFO] Compiling 9 source files with javac [debug release 17] to target\classes
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ receipt-service ---
+[INFO] skip non existing resourceDirectory C:\Users\jayam\Learning\Mock-hack\receipt-service\src\test\resources
+[INFO] 
+[INFO] --- compiler:3.11.0:testCompile (default-testCompile) @ receipt-service ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- surefire:3.1.2:test (default-test) @ receipt-service ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jar:3.3.0:jar (default-jar) @ receipt-service ---
+[INFO] Building jar: C:\Users\jayam\Learning\Mock-hack\receipt-service\target\receipt-service-1.0.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- spring-boot:3.2.4:repackage (repackage) @ receipt-service ---
+[INFO] 
+[INFO] --- install:3.1.1:install (default-install) @ receipt-service ---
+[INFO] Installing C:\Users\jayam\Learning\Mock-hack\receipt-service\pom.xml to C:\Users\jayam\.m2\repository\com\smartwallet\receipt-service\1.0.0-SNAPSHOT\receipt-service-1.0.0-SNAPSHOT.pom
+[INFO] Installing C:\Users\jayam\Learning\Mock-hack\receipt-service\target\receipt-service-1.0.0-SNAPSHOT.jar to C:\Users\jayam\.m2\repository\com\smartwallet\receipt-service\1.0.0-SNAPSHOT\receipt-service-1.0.0-SNAPSHOT.jar
+[INFO] 
+[INFO] -------------------< com.smartwallet:budget-service >-------------------
+[INFO] Building budget-service 1.0.0-SNAPSHOT                            [8/11]
+[INFO]   from budget-service\pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.3.2:clean (default-clean) @ budget-service ---
+[INFO] Deleting C:\Users\jayam\Learning\Mock-hack\budget-service\target
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ budget-service ---
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] Copying 0 resource from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.11.0:compile (default-compile) @ budget-service ---
+[INFO] Changes detected - recompiling the module! :dependency
+[INFO] Compiling 9 source files with javac [debug release 17] to target\classes
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ budget-service ---
+[INFO] skip non existing resourceDirectory C:\Users\jayam\Learning\Mock-hack\budget-service\src\test\resources
+[INFO] 
+[INFO] --- compiler:3.11.0:testCompile (default-testCompile) @ budget-service ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- surefire:3.1.2:test (default-test) @ budget-service ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jar:3.3.0:jar (default-jar) @ budget-service ---
+[INFO] Building jar: C:\Users\jayam\Learning\Mock-hack\budget-service\target\budget-service-1.0.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- spring-boot:3.2.4:repackage (repackage) @ budget-service ---
+[INFO] 
+[INFO] --- install:3.1.1:install (default-install) @ budget-service ---
+[INFO] Installing C:\Users\jayam\Learning\Mock-hack\budget-service\pom.xml to C:\Users\jayam\.m2\repository\com\smartwallet\budget-service\1.0.0-SNAPSHOT\budget-service-1.0.0-SNAPSHOT.pom
+[INFO] Installing C:\Users\jayam\Learning\Mock-hack\budget-service\target\budget-service-1.0.0-SNAPSHOT.jar to C:\Users\jayam\.m2\repository\com\smartwallet\budget-service\1.0.0-SNAPSHOT\budget-service-1.0.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --------------------< com.smartwallet:bill-service >--------------------
+[INFO] Building bill-service 1.0.0-SNAPSHOT                              [9/11]
+[INFO]   from bill-service\pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.3.2:clean (default-clean) @ bill-service ---
+[INFO] Deleting C:\Users\jayam\Learning\Mock-hack\bill-service\target
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ bill-service ---
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] Copying 0 resource from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.11.0:compile (default-compile) @ bill-service ---
+[INFO] Changes detected - recompiling the module! :dependency
+[INFO] Compiling 8 source files with javac [debug release 17] to target\classes
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ bill-service ---
+[INFO] skip non existing resourceDirectory C:\Users\jayam\Learning\Mock-hack\bill-service\src\test\resources
+[INFO] 
+[INFO] --- compiler:3.11.0:testCompile (default-testCompile) @ bill-service ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- surefire:3.1.2:test (default-test) @ bill-service ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jar:3.3.0:jar (default-jar) @ bill-service ---
+[INFO] Building jar: C:\Users\jayam\Learning\Mock-hack\bill-service\target\bill-service-1.0.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- spring-boot:3.2.4:repackage (repackage) @ bill-service ---
+[INFO] 
+[INFO] --- install:3.1.1:install (default-install) @ bill-service ---
+[INFO] Installing C:\Users\jayam\Learning\Mock-hack\bill-service\pom.xml to C:\Users\jayam\.m2\repository\com\smartwallet\bill-service\1.0.0-SNAPSHOT\bill-service-1.0.0-SNAPSHOT.pom
+[INFO] Installing C:\Users\jayam\Learning\Mock-hack\bill-service\target\bill-service-1.0.0-SNAPSHOT.jar to C:\Users\jayam\.m2\repository\com\smartwallet\bill-service\1.0.0-SNAPSHOT\bill-service-1.0.0-SNAPSHOT.jar
+[INFO] 
+[INFO] -------------------< com.smartwallet:split-service >--------------------
+[INFO] Building split-service 1.0.0-SNAPSHOT                            [10/11]
+[INFO]   from split-service\pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.3.2:clean (default-clean) @ split-service ---
+[INFO] Deleting C:\Users\jayam\Learning\Mock-hack\split-service\target
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ split-service ---
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] Copying 0 resource from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.11.0:compile (default-compile) @ split-service ---
+[INFO] Changes detected - recompiling the module! :dependency
+[INFO] Compiling 11 source files with javac [debug release 17] to target\classes
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ split-service ---
+[INFO] skip non existing resourceDirectory C:\Users\jayam\Learning\Mock-hack\split-service\src\test\resources
+[INFO] 
+[INFO] --- compiler:3.11.0:testCompile (default-testCompile) @ split-service ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- surefire:3.1.2:test (default-test) @ split-service ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jar:3.3.0:jar (default-jar) @ split-service ---
+[INFO] Building jar: C:\Users\jayam\Learning\Mock-hack\split-service\target\split-service-1.0.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- spring-boot:3.2.4:repackage (repackage) @ split-service ---
+[INFO] 
+[INFO] --- install:3.1.1:install (default-install) @ split-service ---
+[INFO] Installing C:\Users\jayam\Learning\Mock-hack\split-service\pom.xml to C:\Users\jayam\.m2\repository\com\smartwallet\split-service\1.0.0-SNAPSHOT\split-service-1.0.0-SNAPSHOT.pom
+[INFO] Installing C:\Users\jayam\Learning\Mock-hack\split-service\target\split-service-1.0.0-SNAPSHOT.jar to C:\Users\jayam\.m2\repository\com\smartwallet\split-service\1.0.0-SNAPSHOT\split-service-1.0.0-SNAPSHOT.jar
+[INFO] 
+[INFO] ----------------< com.smartwallet:notification-service >----------------
+[INFO] Building notification-service 1.0.0-SNAPSHOT                     [11/11]
+[INFO]   from notification-service\pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.3.2:clean (default-clean) @ notification-service ---
+[INFO] Deleting C:\Users\jayam\Learning\Mock-hack\notification-service\target
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ notification-service ---
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] Copying 0 resource from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.11.0:compile (default-compile) @ notification-service ---
+[INFO] Changes detected - recompiling the module! :dependency
+[INFO] Compiling 9 source files with javac [debug release 17] to target\classes
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ notification-service ---
+[INFO] skip non existing resourceDirectory C:\Users\jayam\Learning\Mock-hack\notification-service\src\test\resources
+[INFO] 
+[INFO] --- compiler:3.11.0:testCompile (default-testCompile) @ notification-service ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- surefire:3.1.2:test (default-test) @ notification-service ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jar:3.3.0:jar (default-jar) @ notification-service ---
+[INFO] Building jar: C:\Users\jayam\Learning\Mock-hack\notification-service\target\notification-service-1.0.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- spring-boot:3.2.4:repackage (repackage) @ notification-service ---
+[INFO] 
+[INFO] --- install:3.1.1:install (default-install) @ notification-service ---
+[INFO] Installing C:\Users\jayam\Learning\Mock-hack\notification-service\pom.xml to C:\Users\jayam\.m2\repository\com\smartwallet\notification-service\1.0.0-SNAPSHOT\notification-service-1.0.0-SNAPSHOT.pom
+[INFO] Installing C:\Users\jayam\Learning\Mock-hack\notification-service\target\notification-service-1.0.0-SNAPSHOT.jar to C:\Users\jayam\.m2\repository\com\smartwallet\notification-service\1.0.0-SNAPSHOT\notification-service-1.0.0-SNAPSHOT.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary for smartwallet-parent 1.0.0-SNAPSHOT:
+[INFO] 
+[INFO] smartwallet-parent ................................. SUCCESS [  1.043 s]
+[INFO] common-lib ......................................... SUCCESS [  5.245 s]
+[INFO] api-gateway-service ................................ SUCCESS [  2.813 s]
+[INFO] user-auth-service .................................. SUCCESS [  1.923 s]
+[INFO] wallet-ledger-service .............................. SUCCESS [  1.856 s]
+[INFO] analytics-service .................................. SUCCESS [  1.644 s]
+[INFO] receipt-service .................................... SUCCESS [  1.756 s]
+[INFO] budget-service ..................................... SUCCESS [  1.487 s]
+[INFO] bill-service ....................................... SUCCESS [  1.593 s]
+[INFO] split-service ...................................... SUCCESS [  1.680 s]
+[INFO] notification-service ............................... SUCCESS [  1.661 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  23.432 s
+[INFO] Finished at: 2026-03-27T12:31:54+05:30
+[INFO] ------------------------------------------------------------------------

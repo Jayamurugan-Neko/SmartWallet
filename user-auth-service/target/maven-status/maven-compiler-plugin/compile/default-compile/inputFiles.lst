@@ -1,0 +1,10 @@
+C:\Users\jayam\Learning\Mock-hack\user-auth-service\src\main\java\com\smartwallet\user\security\SecurityConfig.java
+C:\Users\jayam\Learning\Mock-hack\user-auth-service\src\main\java\com\smartwallet\user\repository\UserRepository.java
+C:\Users\jayam\Learning\Mock-hack\user-auth-service\src\main\java\com\smartwallet\user\controller\UserController.java
+C:\Users\jayam\Learning\Mock-hack\user-auth-service\src\main\java\com\smartwallet\user\dto\RegisterRequest.java
+C:\Users\jayam\Learning\Mock-hack\user-auth-service\src\main\java\com\smartwallet\user\dto\AuthResponse.java
+C:\Users\jayam\Learning\Mock-hack\user-auth-service\src\main\java\com\smartwallet\user\UserAuthApplication.java
+C:\Users\jayam\Learning\Mock-hack\user-auth-service\src\main\java\com\smartwallet\user\service\JwtService.java
+C:\Users\jayam\Learning\Mock-hack\user-auth-service\src\main\java\com\smartwallet\user\dto\LoginRequest.java
+C:\Users\jayam\Learning\Mock-hack\user-auth-service\src\main\java\com\smartwallet\user\controller\AuthController.java
+C:\Users\jayam\Learning\Mock-hack\user-auth-service\src\main\java\com\smartwallet\user\entity\User.java

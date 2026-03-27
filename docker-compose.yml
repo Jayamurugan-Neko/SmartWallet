@@ -1,0 +1,78 @@
+version: '3.8'
+
+services:
+  postgres:
+    image: postgres:15-alpine
+    container_name: smartwallet-postgres
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_USER: smartwallet
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: smartwallet
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    networks:
+      - smartwallet-net
+
+  redis:
+    image: redis:7-alpine
+    container_name: smartwallet-redis
+    ports:
+      - "6379:6379"
+    networks:
+      - smartwallet-net
+
+  kafka:
+    image: confluentinc/cp-kafka:7.5.0
+    container_name: smartwallet-kafka
+    ports:
+      - "9092:9092"
+    environment:
+      KAFKA_NODE_ID: 1
+      KAFKA_LISTENER_SECURITY_PROTOCOL_MAP: CONTROLLER:PLAINTEXT,PLAINTEXT:PLAINTEXT,PLAINTEXT_HOST:PLAINTEXT
+      KAFKA_ADVERTISED_LISTENERS: PLAINTEXT://kafka:29092,PLAINTEXT_HOST://localhost:9092
+      KAFKA_LISTENERS: PLAINTEXT://kafka:29092,CONTROLLER://kafka:29093,PLAINTEXT_HOST://0.0.0.0:9092
+      KAFKA_CONTROLLER_LISTENER_NAMES: 'CONTROLLER'
+      KAFKA_INTER_BROKER_LISTENER_NAME: 'PLAINTEXT'
+      KAFKA_CONTROLLER_QUORUM_VOTERS: '1@kafka:29093'
+      KAFKA_PROCESS_ROLES: 'broker,controller'
+      KAFKA_GROUP_INITIAL_REBALANCE_DELAY_MS: 0
+      KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR: 1
+      KAFKA_TRANSACTION_STATE_LOG_MIN_ISR: 1
+      KAFKA_TRANSACTION_STATE_LOG_REPLICATION_FACTOR: 1
+      CLUSTER_ID: 'smartwallet-cluster-123'
+    networks:
+      - smartwallet-net
+
+  minio:
+    image: minio/minio:latest
+    container_name: smartwallet-minio
+    ports:
+      - "9000:9000"
+      - "9001:9001"
+    environment:
+      MINIO_ROOT_USER: minioadmin
+      MINIO_ROOT_PASSWORD: minioadmin
+    command: server /data --console-address ":9001"
+    volumes:
+      - miniodata:/data
+    networks:
+      - smartwallet-net
+
+  mailhog:
+    image: mailhog/mailhog
+    container_name: smartwallet-mailhog
+    ports:
+      - "1025:1025" # SMTP
+      - "8025:8025" # UI
+    networks:
+      - smartwallet-net
+
+volumes:
+  pgdata:
+  miniodata:
+
+networks:
+  smartwallet-net:
+    driver: bridge

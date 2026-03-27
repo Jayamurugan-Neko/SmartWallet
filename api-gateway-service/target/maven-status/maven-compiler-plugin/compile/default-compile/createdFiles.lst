@@ -1,0 +1,3 @@
+com\smartwallet\gateway\ApiGatewayApplication.class
+com\smartwallet\gateway\config\RateLimiterConfig.class
+com\smartwallet\gateway\security\JwtAuthenticationFilter.class

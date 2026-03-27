@@ -1,0 +1,28 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: user-auth-service
+  datasource:
+    url: jdbc:postgresql://localhost:5432/smartwallet
+    username: smartwallet
+    password: password
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        default_schema: users
+        format_sql: true
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+  kafka:
+    bootstrap-servers: localhost:9092
+    producer:
+      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+      value-serializer: org.springframework.kafka.support.serializer.JsonSerializer
+
+jwt:
+  secret: 12345678901234567890123456789012
+  expirationMs: 86400000 # 24 hours
+  refreshExpirationMs: 2592000000 # 30 days

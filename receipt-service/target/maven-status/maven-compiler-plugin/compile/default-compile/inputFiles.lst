@@ -1,0 +1,9 @@
+C:\Users\jayam\Learning\Mock-hack\receipt-service\src\main\java\com\smartwallet\receipt\service\MockOcrProvider.java
+C:\Users\jayam\Learning\Mock-hack\receipt-service\src\main\java\com\smartwallet\receipt\service\OcrProvider.java
+C:\Users\jayam\Learning\Mock-hack\receipt-service\src\main\java\com\smartwallet\receipt\repository\ReceiptRepository.java
+C:\Users\jayam\Learning\Mock-hack\receipt-service\src\main\java\com\smartwallet\receipt\ReceiptApplication.java
+C:\Users\jayam\Learning\Mock-hack\receipt-service\src\main\java\com\smartwallet\receipt\config\MinioConfig.java
+C:\Users\jayam\Learning\Mock-hack\receipt-service\src\main\java\com\smartwallet\receipt\controller\ReceiptController.java
+C:\Users\jayam\Learning\Mock-hack\receipt-service\src\main\java\com\smartwallet\receipt\service\MinioService.java
+C:\Users\jayam\Learning\Mock-hack\receipt-service\src\main\java\com\smartwallet\receipt\entity\Receipt.java
+C:\Users\jayam\Learning\Mock-hack\receipt-service\src\main\java\com\smartwallet\receipt\service\ReceiptService.java

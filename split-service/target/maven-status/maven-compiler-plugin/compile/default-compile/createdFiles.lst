@@ -1,0 +1,13 @@
+com\smartwallet\split\repository\GroupRepository.class
+com\smartwallet\split\service\SplitService.class
+com\smartwallet\split\entity\Expense$ExpenseBuilder.class
+com\smartwallet\split\entity\Group$GroupBuilder.class
+com\smartwallet\split\entity\Expense.class
+com\smartwallet\split\dto\GroupRequest.class
+com\smartwallet\split\SplitApplication.class
+com\smartwallet\split\entity\Group.class
+com\smartwallet\split\dto\ExpenseRequest.class
+com\smartwallet\split\dto\SettlementRequest.class
+com\smartwallet\split\controller\SplitController.class
+com\smartwallet\split\dto\BalanceResponse.class
+com\smartwallet\split\repository\ExpenseRepository.class

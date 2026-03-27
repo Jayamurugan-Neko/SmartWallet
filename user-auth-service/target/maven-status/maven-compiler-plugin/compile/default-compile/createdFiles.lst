@@ -1,0 +1,12 @@
+com\smartwallet\user\dto\AuthResponse.class
+com\smartwallet\user\controller\UserController.class
+com\smartwallet\user\UserAuthApplication.class
+com\smartwallet\user\dto\LoginRequest.class
+com\smartwallet\user\service\JwtService.class
+com\smartwallet\user\dto\AuthResponse$AuthResponseBuilder.class
+com\smartwallet\user\entity\User.class
+com\smartwallet\user\dto\RegisterRequest.class
+com\smartwallet\user\entity\User$UserBuilder.class
+com\smartwallet\user\security\SecurityConfig.class
+com\smartwallet\user\repository\UserRepository.class
+com\smartwallet\user\controller\AuthController.class

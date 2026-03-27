@@ -1,0 +1,10 @@
+com\smartwallet\wallet\service\KafkaConsumerService$1.class
+com\smartwallet\wallet\dto\TransactionRequest.class
+com\smartwallet\wallet\controller\WalletController.class
+com\smartwallet\wallet\entity\LedgerEntry$LedgerEntryBuilder.class
+com\smartwallet\wallet\repository\LedgerEntryRepository.class
+com\smartwallet\wallet\service\LedgerService.class
+com\smartwallet\wallet\service\KafkaConsumerService.class
+com\smartwallet\wallet\WalletLedgerApplication.class
+com\smartwallet\wallet\entity\LedgerEntry.class
+com\smartwallet\wallet\service\IdempotencyService.class

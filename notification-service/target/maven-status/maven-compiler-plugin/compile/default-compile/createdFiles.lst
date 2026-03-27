@@ -1,0 +1,12 @@
+com\smartwallet\notification\service\KafkaConsumerService$1.class
+com\smartwallet\notification\controller\NotificationController.class
+com\smartwallet\notification\entity\Notification$NotificationBuilder.class
+com\smartwallet\notification\entity\Notification.class
+com\smartwallet\notification\service\EmailService.class
+com\smartwallet\notification\service\MessagingService.class
+com\smartwallet\notification\service\KafkaConsumerService$2.class
+com\smartwallet\notification\config\WebSocketConfig.class
+com\smartwallet\notification\repository\NotificationRepository.class
+com\smartwallet\notification\service\KafkaConsumerService.class
+com\smartwallet\notification\service\NotificationService.class
+com\smartwallet\notification\NotificationApplication.class

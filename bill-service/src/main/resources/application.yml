@@ -1,0 +1,33 @@
+server:
+  port: 8086
+
+spring:
+  application:
+    name: bill-service
+  datasource:
+    url: jdbc:postgresql://localhost:5432/smartwallet
+    username: smartwallet
+    password: password
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        default_schema: bills
+        format_sql: true
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+  quartz:
+    job-store-type: memory # Memory for local dev, usually jdbc for production
+    properties:
+      org.quartz.threadPool.threadCount: 5
+  kafka:
+    bootstrap-servers: localhost:9092
+    producer:
+      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+      value-serializer: org.springframework.kafka.support.serializer.JsonSerializer
+    consumer:
+      group-id: bill-group
+      key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+      value-deserializer: org.springframework.kafka.support.serializer.JsonDeserializer
+      properties:
+        spring.json.trusted.packages: "*"

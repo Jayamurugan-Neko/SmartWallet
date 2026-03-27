@@ -1,0 +1,15 @@
+com\smartwallet\common\model\PagedResponse.class
+com\smartwallet\common\exception\ErrorResponse$ErrorDetails.class
+com\smartwallet\common\exception\ErrorResponse$ErrorResponseBuilder.class
+com\smartwallet\common\config\CommonAutoConfiguration.class
+com\smartwallet\common\event\KafkaEvent$KafkaEventBuilder.class
+com\smartwallet\common\event\KafkaEvent.class
+com\smartwallet\common\security\UserContext.class
+com\smartwallet\common\exception\GlobalExceptionHandler.class
+com\smartwallet\common\model\PagedResponse$PagedResponseBuilder.class
+com\smartwallet\common\security\UserIdFilter.class
+com\smartwallet\common\model\PagedResponse$PageMetadata$PageMetadataBuilder.class
+com\smartwallet\common\exception\BusinessException.class
+com\smartwallet\common\model\PagedResponse$PageMetadata.class
+com\smartwallet\common\exception\ErrorResponse.class
+com\smartwallet\common\exception\ErrorResponse$ErrorDetails$ErrorDetailsBuilder.class

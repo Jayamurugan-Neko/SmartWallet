@@ -1,0 +1,6 @@
+C:\Users\jayam\Learning\Mock-hack\analytics-service\src\main\java\com\smartwallet\analytics\service\AnalyticsService.java
+C:\Users\jayam\Learning\Mock-hack\analytics-service\src\main\java\com\smartwallet\analytics\controller\AnalyticsController.java
+C:\Users\jayam\Learning\Mock-hack\analytics-service\src\main\java\com\smartwallet\analytics\entity\MonthlyAggregation.java
+C:\Users\jayam\Learning\Mock-hack\analytics-service\src\main\java\com\smartwallet\analytics\repository\MonthlyAggregationRepository.java
+C:\Users\jayam\Learning\Mock-hack\analytics-service\src\main\java\com\smartwallet\analytics\service\KafkaConsumerService.java
+C:\Users\jayam\Learning\Mock-hack\analytics-service\src\main\java\com\smartwallet\analytics\AnalyticsApplication.java
